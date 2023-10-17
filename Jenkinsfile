@@ -6,7 +6,7 @@ pipeline{
 		stage('Get Git Code'){
 			steps{
 				git branch: 'master',
-				url 'https://github.com/Nandivaleamol/Jenkins-Sonar-Qube.git'
+				url: 'https://github.com/Nandivaleamol/Jenkins-Sonar-Qube.git'
 			}
 		}
 
