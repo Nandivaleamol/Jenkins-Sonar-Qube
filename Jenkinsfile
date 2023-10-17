@@ -15,5 +15,12 @@ pipeline{
 				sh 'mvn clean package -DskipTests'
 			}
 		}
+		stage('Code Analisys'){
+			steps{
+				withSonarQubeEnv('Sonar-Qube-Version 9.9.2'){
+					sh 'mvn sonar:sonar'
+				}
+			}
+		}
 	}
 }
