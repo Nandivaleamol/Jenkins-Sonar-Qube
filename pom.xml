@@ -16,6 +16,8 @@
 	<description>Web application for Electric Device</description>
 	<properties>
 		<java.version>17</java.version>
+		<sonar.host.url>http://154.41.254.123:9000/</sonar.host.url>
+    		<sonar.login>sqa_136d5a2ceb01d79e8950b172a66edec5cd3281e5</sonar.login>
 	</properties>
 	<dependencies>
 		<dependency>
